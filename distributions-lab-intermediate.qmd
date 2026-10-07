@@ -279,12 +279,10 @@ print("Wide format:")
 print(acc_wide)
 ```
 
-Inline prompt: "Overall accuracy = `r NA`. Easy = `r NA`, Hard = `r NA`." Replace NA with inline code.
-```{r}
-Overall accuracy = 'r round(mean(acc$acc),3)'
-Easy = 'r round(mean(acc$acc[acc$condition == "easy"]), 3)'
-Hard = 'r round(mean(acc$acc[acc$condition == "hard"]), 3)'
-```
+# Inline prompt: "Overall accuracy = `r NA`. Easy = `r NA`, Hard = `r NA`." Replace NA with inline code.
+
+Overall accuracy = `r round(mean(acc2$acc), 3)`. Easy = `r round(mean(acc2$acc[acc2$condition == "easy"]), 3)`, Hard = `r round(mean(acc2$acc[acc2$condition == "hard"]), 3)`.
+
 
 ## C. Reaction times (RT): shifted lognormal
 
