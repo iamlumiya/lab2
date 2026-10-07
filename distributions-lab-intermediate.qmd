@@ -3,8 +3,7 @@ title: "Simulations & Tidyverse lab: Intermediate Version"
 subtitle: "PSYC 201A, Data Simulation Lab 1"
 author: "Lumi Kang"
 date: today
-format:
-  pdf
+format: pdf
 ---
 
 > **Goals:** (1) Understand how normal, binomial, and lognormal distributions describe behavioral data (accuracy, RTs, individual variability). (2) Practice generating and visualizing synthetic datasets using tidyverse functions. (3) Learn how to write reproducible lab reports with inline statistics in Quarto.
